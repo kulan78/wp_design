@@ -56,7 +56,20 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * @see http://git.io/normalize
  * ----------------------------------------------------------------------------
  */
+/* Things we wish to hide*/
+#comments {
 
+display: none;
+
+}
+
+#secondary {
+
+	display: none;
+}
+/* Things we wish to hide
+END
+*/
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
@@ -847,18 +860,36 @@ img.wp-smiley,
 .main-navigation {
 	clear: both;
 	margin: 0 auto;
+
 	max-width: 1080px;
 	min-height: 45px;
 	position: relative;
 }
+li.page_item.page-item-12{
 
+	 background-color: #F9FE72;
+}
+
+li.page_item.page-item-4 {
+
+	background-color: #F9FE72;
+}
 ul.nav-menu,
 div.nav-menu > ul {
+
+	font-size-adjust: 0.58;
+	font-family: "Indie Flower", cursive;
+	box-shadow: 10px 10px 5px #888888;
 	margin: 0;
 	padding: 0 40px 0 0;
 }
 
 .nav-menu li {
+
+	transform:rotate(5deg);
+
+	margin: 6px;
+	border: solid #000000;
 	display: inline-block;
 	position: relative;
 }
@@ -899,6 +930,7 @@ div.nav-menu > ul {
 
 ul.nav-menu ul a,
 .nav-menu ul ul a {
+	
 	color: #fff;
 	margin: 0;
 	width: 200px;
@@ -928,7 +960,8 @@ ul.nav-menu li:hover > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #f7f5e7;
+	opacity: 0.8;
+	background-color: #FF9933;
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
@@ -3120,6 +3153,7 @@ footer.entry-meta {
 
 	/* Comments */
 	.comments-area > li.comment {
+
 		background: none;
 		position: relative;
 		width: auto;
