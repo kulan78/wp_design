@@ -838,7 +838,9 @@ img.wp-smiley,
 .site-header {
 	position: relative;
 	max-width: 920px;
-	margin-left: 200px;
+	/*margin-left: 200px;*/
+	margin:0 auto;
+
 }
 
 .site-header .home-link {
